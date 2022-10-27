@@ -56,9 +56,9 @@ public class Main {
         var workHour = 8;
         var workPeople = hour / workHour;
         System.out.println("Всего работников в компании " + workPeople + " человек");
-        var workPeopleall = workPeople + 94;
-        var workHourall = workHour * workPeopleall;
-        System.out.println("Если в компании работает " + workPeopleall + " человека, то всего " + workHourall + " часов работы может быть поделено между сотрудниками");
+        var workPeopleAll = workPeople + 94;
+        var workHourAll = workHour * workPeopleAll;
+        System.out.println("Если в компании работает " + workPeopleAll + " человека, то всего " + workHourAll + " часов работы может быть поделено между сотрудниками");
 
     }
 }
